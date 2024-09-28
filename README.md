@@ -1,19 +1,24 @@
 # Getting Started
 Install the dependencies and run the project
 ```
-npm install
-npm start
+
 ```
+# Qassim City Homepage
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This project is a simple homepage for Qassim City. It showcases the city's history, top attractions, and upcoming events. The page is built using HTML and CSS, with a responsive layout designed to adapt to various screen sizes.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- *History section* with an introduction to Qassim City
+- *Attractions section* including the Buraidah Date Festival and Uyun AlJiwa
+- *Responsive design* using Flexbox for modern layout adaptability
+- *Section transparency* to reveal background images for aesthetic appeal
 
-Happy Coding!
+## How to View
+
+- Download the project and open index.html in your browser.
+
+## Technologies Used
+
+- HTML
+- CSS

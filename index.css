@@ -1,7 +1,6 @@
 body {
     background-image: url("https://airlinesofficecounter.com/wp-content/uploads/2023/03/Al-Qassim-.jpg");
     font-family: 'tahoma', sans-serif;
-    background-color: khaki;
     padding: 10px;
     line-height: 1.5;
     border-radius: 10px;
@@ -22,6 +21,8 @@ body {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255 , 0.7); /*white background with 70% opacity*/
+    
     } 
     
     section h2 {
@@ -34,22 +35,10 @@ body {
     section p {
     text-align: center;
     font-size: 1.1em;
-    color: #555;
+    color: #444;
     padding: 0 20px;
     }
 
- .attraction-container{
-    display:flex;
-    justify-content: space-between;
-    gap: 20px;
-   }
-
-.image-container{
-    width: 100%;
-    height: 20rem;
-    border: 2px solid red;
-
-}
 .attraction {
    flex: 1;
    text-align: center;
@@ -57,6 +46,7 @@ body {
    padding: 20px;
    border-radius: 10px;
    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: rgb(255, 255, 255 , 0.8);
 }
 .attraction img{
     width: 100%;
@@ -64,29 +54,23 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
     display: inline-block;
+    background-color: rgb(255, 255, 255 , 0.6);
 }
 .attraction h3{
     margin-top: 10px;
     color: coral;
 }
 .attraction p{
-    color: black;
-}
-@media (max-width:768px){
-    .attractions-container{
-        flex-direction:row;
-    }
-    .attraction{
-        margin-bottom: 20px;
-    }
+    color: #444;
 }
 
 footer {
-    background-color: khaki;
     color: black;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+    border-radius: 50px;
+    background-color: rgb(240, 230, 140 , 0.8);
 }
 
 footer a {
@@ -95,5 +79,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffcc00;
+    color: red;
 }
